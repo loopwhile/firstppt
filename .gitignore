@@ -1,0 +1,62 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+# === Java / Spring Boot ===
+/target
+*.log
+*.tmp
+*.out
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+
+# === Node / React ===
+/frontreact/node_modules
+/frontreact/dist
+/frontreact/.vite
+/frontreact/.next
+frontreact/npm-debug.log*
+frontreact/yarn-debug.log*
+frontreact/yarn-error.log*
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
