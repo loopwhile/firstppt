@@ -11,7 +11,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * - 목적: 브라우저에서 다른 출처(origin)로부터 온 요청(예: React 개발서버 http://localhost:3000)을 허용하기 위함.
  * - 사용 시기: 프론트엔드(별도 포트/도메인)와 백엔드를 분리해서 개발/배포할 때 주로 필요합니다.
  *
- * 학생용 포인트:
  * 1) CORS는 브라우저의 보안 정책(동일 출처 정책)을 우회하기 위해 서버가 명시적으로 허용해야 동작합니다.
  * 2) 서버에서 허용한 출처(Origin)와 요청 메서드만 브라우저가 허용합니다.
  */

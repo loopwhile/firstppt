@@ -67,8 +67,6 @@ public class MemberRestController {
      * 이메일 중복 체크
      * - 쿼리 파라미터로 이메일을 받아 중복 여부를 boolean으로 반환
      * - 프론트에서 회원가입 폼 유효성 검사에 사용
-     *
-     * 개선 포인트: 이메일 포맷 검증(정규표현식) -> 컨트롤러에서 @RequestParam에 @Email 등 적용 가능
      */
     @GetMapping("/check-email")
     public ResponseEntity<?> checkEmail(@RequestParam String email) {
