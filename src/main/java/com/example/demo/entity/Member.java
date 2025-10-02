@@ -10,12 +10,12 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "first_ppt_member")
+@Table(name = "first_ppt_member")   // DB 테이블명 지정
 public class Member {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long id;     // PK (자동증가)
     private String name;
     private String phone_number;
     private String email;
